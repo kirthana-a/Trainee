@@ -35,3 +35,4 @@ This project is a simple **“About Me” web page** built using **HTML and CSS*
 ```html
 <!-- Block Elements: div, p, h2, h3 -->
 <!-- Inline Elements: a, span, strong -->
+<img width="1847" height="903" alt="image" src="https://github.com/user-attachments/assets/45cde808-e6fe-4973-91e2-64d0ea539379" />
