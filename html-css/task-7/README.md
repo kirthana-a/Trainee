@@ -17,7 +17,7 @@ The page uses proper HTML structure:
 
 ### 2. Paragraph Content
 - Contains **2–3 paragraphs**
-- Written in a **natural and human-friendly way**
+
 - Describes cooking as a hobby
 
 ---
@@ -30,4 +30,6 @@ Important words are wrapped in `<span>` elements with meaningful classes:
 - `.important` → shows strong importance  
 
 ---
+### 4.External and internal links
+-----
 <img width="1839" height="806" alt="_c%3A_Users_2145043_hobby html" src="https://github.com/user-attachments/assets/e89cbfa3-258e-4ab4-8a69-74db3720a248" />
