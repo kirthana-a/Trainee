@@ -44,4 +44,5 @@ This project demonstrates the difference between **block-level elements** and **
 ## Technologies Used
 - HTML
 - CSS (inline styles)
+<img width="1852" height="862" alt="image" src="https://github.com/user-attachments/assets/68f00fdc-34cf-4219-82e2-b529806daade" />
 
