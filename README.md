@@ -1,6 +1,26 @@
-Create a simple “About My Favorite Place” mini page using only basic HTML structure and common text tags. Focus on practicing headings, paragraphs, links, images, and divs to organize content into clear sections.
+# About My Favorite Place - Mini HTML Page
 
- Create a new HTML file and add a basic structure (<!DOCTYPE html>, <html>, <head>, <body>). Inside the <body>, add a main heading (<h1>) with the name of your favorite place.
- Under the heading, add at least one <div> that contains: a short paragraph (<p>) describing why you like this place, and a smaller heading (<h2>–<h4>) to label this section (for example, “Why I Love This Place”).
- Add an <img> showing your favorite place (use any image URL) with a descriptive alt attribute, and a paragraph under it explaining what the image shows.
- Add a link (<a>) to an external website with more information about this place (for example, a city tourism page), and place it inside a <div> with a short heading describing the link (for example, “Learn More”).
+## 📌 Task Overview
+This project demonstrates a simple HTML page created using basic HTML structure and commonly used text tags. The page describes my favorite place and is organized into clear sections.
+
+## ✅ What I Implemented
+- Basic HTML structure:
+  - `<!DOCTYPE html>`
+  - `<html>`, `<head>`, `<body>`
+- Main heading (`<h1>`) for the place name
+- Content organized using `<div>` sections
+- Paragraph (`<p>`) describing why I like the place
+- Subheadings (`<h2>`, `<h3>`) for section titles
+- Image (`<img>`) with a descriptive `alt` attribute
+- External link (`<a>`) to learn more about the place
+
+## 🧩 Page Sections
+- **Title Section** – Displays the name of the favorite place  
+- **Why I Love This Place** – Short description  
+- **Image Section** – Shows an image with explanation
+- **likes and dislikes**
+- **Learn More** – External link for additional information  
+
+## 💻 Technologies Used
+- HTML (Basic Tags Only)
+
