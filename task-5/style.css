@@ -1,0 +1,105 @@
+/* .heading{
+    
+    align-items: center;
+    justify-content: center;
+} */
+.heading_1 {
+    text-align: center;
+    color: rgb(252, 220, 191);
+}
+
+body {
+   background-image: url('https://thf.bing.com/th/id/OIP.iwVFO6A728ziJ_AhlX6NKAHaEK?cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: azure
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 218, 1);
+    text-underline-offset: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+ p{
+    text-align: justify;
+ }
+ h2{
+    color: bisque;
+    margin-left: 40px;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .card{
+    background-color: rgba(249, 229, 188, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width:95%;
+    padding:10px;
+    font-size: larger;
+ }
+
+ .skill{
+    font-size: larger;
+     display: flex;
+    justify-content: space-around;
+
+ }
+ 
+details{
+    color:beige
+}
+
+/* When details is open */
+.det1[open] {
+    background-color: beige;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    color:black
+}
+
+
+
+
+/* When details is open */
+.det2[open] {
+    background-color: beige;
+     border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    color:black
+}
+
+.skill{
+    margin-top: 60px;
+}
+.bold{
+    font-weight: bolder;
+}
+.profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            margin-top: 0px;;
+        }
+
+        footer{
+            background-color: bisque;
+            margin-bottom: 0px;
+            text-align: center;
+        }
