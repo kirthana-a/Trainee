@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* Header */
+        header {
+            background-color: rgb(1, 21, 12);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Layout container */
+        .container {
+            display: flex;
+        }
+
+        /* Aside (Left) */
+        aside {
+            width: 25%;
+            color: antiquewhite;
+            background-color: rgb(35, 41, 24);
+            padding: 20px;
+            box-sizing: border-box;
+            border: 3px solid black;
+        }
+
+        /* Main (Right) */
+        main {
+            width: 75%;
+            background-color: rgb(203, 186, 163);
+            padding: 20px;
+            box-sizing: border-box;
+            border: 3px solid black;
+        }
+
+        /* Article inside main */
+        article {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 2px dashed black;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b58863;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        img {
+            width: 40%;
+        }
+
+        #art {
+            text-align: justify;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Blog Page</h1>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Aside (Left Sidebar) -->
+        <aside>
+            <h2>Sidebar</h2>
+            <p>Links</p>
+            <p>Categories</p>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+
+
+
+            <!-- Section: Importance -->
+            <section>
+                <h2>Latest Post Area</h2>
+                <!-- Article explaining semantics -->
+                <article>
+                    <h2>What is Semantic HTML?</h2>
+                    <p><strong>Author:</strong> Kirthana</p>
+
+                    <p id="art">
+                        Semantic HTML refers to the use of meaningful HTML tags that clearly describe
+                        the content they contain. Instead of using generic tags like &lt;div&gt;,
+                        semantic elements like &lt;header&gt;, &lt;article&gt;, and &lt;footer&gt;
+                        provide better structure.
+                    </p>
+
+                    <p>
+                        It helps browsers, search engines, and developers understand the webpage
+                        more easily.
+                    </p>
+                </article>
+                <!-- Article about Semantic Tags Examples -->
+                <article>
+                    <h2>Common Semantic Tags</h2>
+                    <p><strong>Author:</strong> Kirthana</p>
+
+                    <p id="art">
+                        HTML5 introduced several semantic elements such as &lt;header&gt;,
+                        &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, and &lt;footer&gt;.
+                        These tags provide meaning to the structure of the webpage instead of
+                        just defining layout.
+                    </p>
+
+                    <p>
+                        Using these elements makes your code cleaner and easier to understand
+                        for both developers and browsers.
+                    </p>
+                </article>
+
+                <!-- Article about Benefits of Semantic HTML -->
+                <article>
+                    <h2>Benefits of Using Semantic HTML</h2>
+                    <p><strong>Author:</strong> Kirthana</p>
+
+                    <p id="art">
+                        Semantic HTML improves accessibility by helping screen readers identify
+                        important sections of a webpage. It also makes the website more SEO-friendly
+                        by clearly defining the importance of different parts of content.
+                    </p>
+
+                    <p>
+                        Additionally, it helps developers maintain and scale projects efficiently
+                        due to its clear and structured format.
+                    </p>
+                </article>
+
+            </section>
+
+            <!-- Section: Example Image -->
+            <section>
+                <h2>Example Structure</h2>
+
+                <figure>
+                    <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-semantic-tags/semantic-tags.png"
+                        alt="Semantic HTML structure">
+                    <figcaption>A simple representation of semantic layout</figcaption>
+                </figure>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Blog</p>
+    </footer>
+
+</body>
+
+</html>
