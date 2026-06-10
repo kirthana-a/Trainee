@@ -1,0 +1,124 @@
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#nav {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;  
+}
+#nav ul {
+
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;           
+  list-style: none;    
+  margin: 0;
+  margin-left: 160px;
+  padding: 0;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/burger-top-view-flat-lay-background-copyspace_198067-94199.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+    
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
+}
+h1{
+    margin-top: 50px;;
+    color: white;
+
+}
+#burger{
+    color:orangered;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+.link:hover{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-underline-offset: 10px;
+}
+.m {
+  color: black;
+  background-color: orangered;
+  width: 25%;
+  height:300px;
+  border-radius: 20%;
+  padding: 15px;
+  transition: all 0.4s ease;  
+}
+
+
+.link {
+  transition: all 0.3s ease;
+}
+
+.m:hover {
+  transform: translateY(-10px);   
+  background-color: #ff7043;   
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);  
+}
+.m ul {
+  padding-left: 20px;
+}
+
+.m li {
+  margin: 5px 0;
+}
+
+.m h3 {
+  text-align: center;
+  color: rgb(23, 93, 2);
+}
+.steps-box {
+  background-color: #025f10;
+  color: white;
+  width: 26%;
+  height: 300px;
+  /* margin-top : 20px; */
+  padding: 15px;
+  border-radius: 20%;
+  transition: all 0.4s ease;
+}
+
+/* Heading */
+.steps-box h3 {
+  text-align: center;
+  color: orange;
+}
+
+/* List */
+.steps-box ol {
+  padding-left: 20px;
+}
+
+.steps-box li {
+  margin: 8px 0;
+}
+
+/* Hover animation */
+.steps-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+#main{
+    display: flex;
+    gap: 30px;
+}
