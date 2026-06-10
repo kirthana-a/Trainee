@@ -32,7 +32,6 @@ This project is a simple **“About Me” web page** built using **HTML and CSS*
 - `<span>` 
 - `<strong>` 
 
-```html
-<!-- Block Elements: div, p, h2, h3 -->
-<!-- Inline Elements: a, span, strong -->
-<img width="1847" height="903" alt="image" src="https://github.com/user-attachments/assets/45cde808-e6fe-4973-91e2-64d0ea539379" />
+<img width="1847" height="903" alt="image" src="https://github.com/user-attachments/assets/07e1d997-2268-4282-81fa-77eba99828d6" />
+
+
