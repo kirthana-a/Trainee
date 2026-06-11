@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            background-color: rgb(47, 30, 64);
+            color: beige;
+            padding: 3px;
+            margin-bottom: 8px;
+            width: 100px;
+            border-radius: 15%;
+             margin: 0 auto 20px;
+        }
+
+        name:active {
+            background-color: rgb(112, 94, 67);
+        }
+
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: block;
+            border: 5px solid black;
+            object-fit: cover;
+            /* margin-left: 200px; */
+            margin: 0 auto 20px;
+
+        }
+img:hover{
+     border: 5px solid rgb(218, 217, 217);
+}
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            border-color: antiquewhite;
+        }
+
+        .form-group {
+            display: flex;
+            margin-bottom: 20px;
+           flex-direction: column;
+            margin-top: 20px;
+        }
+
+        section {
+            background-color: rgb(141, 140, 140);
+
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            
+            <h1>
+                Contact Me
+            </h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile" class="profile-img"
+                target="profile-img">
+            <form>
+                <div class="form-group">
+                    <label for="name"> NAME :</label>
+                        <input type="text" id="name" name="name" placeholder="Type Your text here" required>
+
+
+                    
+                </div>
+                <div class="form-group">
+                    <label for="message">MESSAGE :</label>
+                        <textarea id="message" name="message" rows="4" placeholder="write your message here"></textarea>
+
+                    
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
